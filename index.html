@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Collection App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>My Music Collection</h1>
+
+  <form id="song-form">
+    <input id="song-title" type="text" placeholder="Song Title" required minlength="2">
+    <input id="artist-name" type="text" placeholder="Artist" required minlength="2">
+    <button type="submit">Add Song</button>
+  </form>
+
+  <p id="song-count">Total Songs: 0</p>
+
+  <ul class="song-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

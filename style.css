@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#song-count {
+  text-align: center;
+}
+
+.song-list {
+  width: 700px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.song-item {
+  list-style: none;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.song-item button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.favorite {
+  color: red;
+  font-weight: bold;
+}
